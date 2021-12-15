@@ -1,15 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
-import { Heading, Box, Divider, Center } from "@chakra-ui/react";
-import {
-  FaQuestionCircle,
-  FaSistrix,
-  FaCloudDownloadAlt,
-  FaRegThumbsUp,
-  FaClipboardList,
-  FaChild,
-} from "react-icons/fa";
+import { Heading, Box, Flex } from "@chakra-ui/react";
 
 export default function Implementatie() {
   return (
@@ -21,23 +12,26 @@ export default function Implementatie() {
       </Head>
 
       <main>
-        <Box className='bg'>
-          <Box className='bg-tekst'>
-            <Box>
-              <Heading className='h1'>
-                <span className='line'></span> <span className='title'> I</span>
-                mplementatie
-              </Heading>
+        <Box className='hero-img'>
+          <Box className='inside-container'>
+            <Box className='hero-content'>
+              <Flex justifyContent='center'>
+                <Heading className='h1'>
+                  <span className='line'></span>{" "}
+                  <span className='color'> I</span>
+                  mplementatie
+                </Heading>
+              </Flex>
+              <Flex className='nav' justifyContent='center'>
+                <Box>
+                  <Link href='/' passHref>
+                    <span className='navhome'>Terug naar home</span>
+                  </Link>
+                  /<span className='navactive'>Implementatie</span>
+                </Box>
+              </Flex>
+              <Box className='content'>Foto</Box>
             </Box>
-            <Box className='nav'>
-              <Box>
-                <Link href='/' passHref>
-                  <span className='navhome'>Terug naar home</span>
-                </Link>
-                /<span className='navactive'>Implementatie</span>
-              </Box>
-            </Box>
-            <Box>Foto</Box>
           </Box>
         </Box>
       </main>

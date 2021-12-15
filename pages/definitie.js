@@ -1,14 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Heading, Box, Divider, Center } from "@chakra-ui/react";
-import {
-  FaQuestionCircle,
-  FaSistrix,
-  FaCloudDownloadAlt,
-  FaRegThumbsUp,
-  FaClipboardList,
-  FaChild,
-} from "react-icons/fa";
+import { Heading, Box, Flex } from "@chakra-ui/react";
 
 export default function Definitie() {
   return (
@@ -20,38 +12,44 @@ export default function Definitie() {
       </Head>
 
       <main>
-        <Box className='bg'>
-          <Box className='bg-tekst'>
-            <Box>
-              <Heading className='h1'>
-                <span className='line'></span> <span className='title'> D</span>
-                efinitie
-              </Heading>
-            </Box>
-            <Box className='nav'>
-              <Box>
-                <Link href='/' passHref>
-                  <span className='navhome'>Terug naar home</span>
-                </Link>
-                /<span className='navactive'>Definitie</span>
-              </Box>
-            </Box>
-            <Box>
-              <Box fontWeight='700' display='inline'>
-                Group Investigation (GI)
-              </Box>{" "}
-              is een coöperatieve werkvorm waarbij leerlingen samenwerken in
-              groepjes naargelang hun interesses, om zo een specifiek topic te
-              onderzoeken. Nadat ze zich verdiepen in hun onderwerp, presenteren
-              de groepjes hun bevindingen aan de klas met als volgt een korte
-              evaluatie door de peers en leerkracht. Hoe dit proces exact in
-              zijn werk gaat, vind je terug onder implementatie.
-            </Box>
-            <Box mt='25px'>
-              De belangrijkste kenmerken van deze werkvorm worden samengevat
-              door{" "}
-              <Box fontWeight='700' display='inline'>
-                de 4 I’s:
+        <Box className='hero-img'>
+          <Box className='inside-container'>
+            <Box className='hero-content'>
+              <Flex justifyContent='center'>
+                <Heading className='h1'>
+                  <span className='line'></span>{" "}
+                  <span className='color'> D</span>
+                  efinitie
+                </Heading>
+              </Flex>
+              <Flex className='nav' justifyContent='center'>
+                <Box>
+                  <Link href='/' passHref>
+                    <span className='navhome'>Terug naar home</span>
+                  </Link>
+                  /<span className='navactive'>Definitie</span>
+                </Box>
+              </Flex>
+              <Box className='content'>
+                <Box>
+                  <Box fontWeight='700' display='inline'>
+                    Group Investigation (GI)
+                  </Box>{" "}
+                  is een coöperatieve werkvorm waarbij leerlingen samenwerken in
+                  groepjes naargelang hun interesses, om zo een specifiek topic
+                  te onderzoeken. Nadat ze zich verdiepen in hun onderwerp,
+                  presenteren de groepjes hun bevindingen aan de klas met als
+                  volgt een korte evaluatie door de peers en leerkracht. Hoe dit
+                  proces exact in zijn werk gaat, vind je terug onder
+                  implementatie.
+                </Box>
+                <Box mt='25px'>
+                  De belangrijkste kenmerken van deze werkvorm worden samengevat
+                  door{" "}
+                  <Box fontWeight='700' display='inline'>
+                    de 4 I’s:
+                  </Box>
+                </Box>
               </Box>
             </Box>
           </Box>
