@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Heading, Box, Flex, Grid } from "@chakra-ui/react";
+import { FaBrain, FaHeart, FaUsers, FaSearch } from "react-icons/fa";
 
 export default function Definitie() {
   return (
@@ -50,23 +51,43 @@ export default function Definitie() {
                     de 4 I’s:
                   </Box>
                 </Box>
-                <Grid templateColumns='repeat(4, 1fr)' gap={6}>
-                  <Box className='def-icon'>icoon</Box>
+                <Grid templateColumns='repeat(4, 1fr)' gap={2}>
+                  <Box className='def-icon-left'>
+                    <FaSearch />
+                  </Box>
                   <Box className='def-title'>Investigation</Box>
                   <Box className='def-title'>Interaction</Box>
-                  <Box className='def-icon'>icoon</Box>
+                  <Box className='def-icon-right'>
+                    <FaUsers />
+                  </Box>
                   <Box></Box>
-                  <Box className='def-tekst-top'>heel veel tekst</Box>
-                  <Box className='def-tekst-top'>heel veel tekst</Box>
+                  <Box className='def-tekst-top'>
+                    Het zoekproces over een topic dat aansluit bij de intresses
+                    van de groep.
+                  </Box>
+                  <Box className='def-tekst-top'>
+                    De groepsleden moeten met elkaar in interactie gaan om de
+                    opdracht tot een goed einde te brengen.
+                  </Box>
                   <Box></Box>
                   <Box></Box>
-                  <Box className='def-tekst-bottom'>heel veel tekst</Box>
-                  <Box className='def-tekst-bottom'>heel veel tekst</Box>
+                  <Box className='def-tekst-bottom'>
+                    De motivatie die vanuit de leerling zelf komt om aan de
+                    opdracht te werken.
+                  </Box>
+                  <Box className='def-tekst-bottom'>
+                    Wijst op het samenvatten van de bevindingen van elk
+                    groepslid om zo meer te weten te komen over het onderwerp.
+                  </Box>
                   <Box></Box>
-                  <Box className='def-icon'>icoon</Box>
+                  <Box className='def-icon-left'>
+                    <FaHeart />
+                  </Box>
                   <Box className='def-title'>Intrinsic motivation</Box>
                   <Box className='def-title'>interpretation</Box>
-                  <Box className='def-icon'>icoon</Box>
+                  <Box className='def-icon-right'>
+                    <FaBrain />
+                  </Box>
                 </Grid>
               </Box>
             </Box>

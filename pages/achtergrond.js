@@ -42,8 +42,8 @@ export default function Achtergrond() {
               <Box className='content'>
                 <Tabs isFitted colorScheme='green'>
                   <TabList mb='1em'>
-                    <Tab>Group investigation</Tab>
-                    <Tab>Coöperatief leren</Tab>
+                    <Tab _focus={{ outline: 0 }}>Group investigation</Tab>
+                    <Tab _focus={{ outline: 0 }}>Coöperatief leren</Tab>
                   </TabList>
                   <TabPanels>
                     <TabPanel>

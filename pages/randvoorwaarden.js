@@ -9,6 +9,7 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
+  background,
 } from "@chakra-ui/react";
 
 export default function Randvoorwaarden() {
@@ -43,7 +44,13 @@ export default function Randvoorwaarden() {
                 <Accordion allowToggle w='1000px'>
                   <AccordionItem>
                     <h2>
-                      <AccordionButton>
+                      <AccordionButton
+                        _focus={{
+                          outline: 0,
+                          color: "#03a65a",
+                          background: "rgba(0,0,0,0.5)",
+                        }}
+                      >
                         <Box flex='1' textAlign='left'>
                           Onderwerp
                         </Box>
@@ -60,7 +67,13 @@ export default function Randvoorwaarden() {
 
                   <AccordionItem>
                     <h2>
-                      <AccordionButton>
+                      <AccordionButton
+                        _focus={{
+                          outline: 0,
+                          color: "#03a65a",
+                          background: "rgba(0,0,0,0.5)",
+                        }}
+                      >
                         <Box flex='1' textAlign='left'>
                           Groepsvorming
                         </Box>
@@ -77,7 +90,13 @@ export default function Randvoorwaarden() {
                   </AccordionItem>
                   <AccordionItem>
                     <h2>
-                      <AccordionButton>
+                      <AccordionButton
+                        _focus={{
+                          outline: 0,
+                          color: "#03a65a",
+                          background: "rgba(0,0,0,0.5)",
+                        }}
+                      >
                         <Box flex='1' textAlign='left'>
                           Evaluatie
                         </Box>
