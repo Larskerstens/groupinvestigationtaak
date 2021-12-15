@@ -49,7 +49,7 @@ export default function Voorennadelen() {
                   <br />+ Leerlingen hebben minder vooroordelen naar anderen toe
                   (bijv. etnische afkomst).
                 </Box>
-                <Flex mt='25px' textAlign='right' w='100%' ml='20%'>
+                <Flex mt='25px' textAlign='right' w='100%'>
                   Nadelen
                   <br /> - Leerkrachten worden te weinig opgeleid om Group
                   Investigation te implementeren in hun klas.

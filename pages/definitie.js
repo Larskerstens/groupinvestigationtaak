@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Heading, Box, Flex } from "@chakra-ui/react";
+import { Heading, Box, Flex, Grid } from "@chakra-ui/react";
 
 export default function Definitie() {
   return (
@@ -43,13 +43,31 @@ export default function Definitie() {
                   proces exact in zijn werk gaat, vind je terug onder
                   implementatie.
                 </Box>
-                <Box mt='25px'>
+                <Box m='25px 0px'>
                   De belangrijkste kenmerken van deze werkvorm worden samengevat
                   door{" "}
                   <Box fontWeight='700' display='inline'>
                     de 4 I’s:
                   </Box>
                 </Box>
+                <Grid templateColumns='repeat(4, 1fr)' gap={6}>
+                  <Box className='def-icon'>icoon</Box>
+                  <Box className='def-title'>Investigation</Box>
+                  <Box className='def-title'>Interaction</Box>
+                  <Box className='def-icon'>icoon</Box>
+                  <Box></Box>
+                  <Box className='def-tekst-top'>heel veel tekst</Box>
+                  <Box className='def-tekst-top'>heel veel tekst</Box>
+                  <Box></Box>
+                  <Box></Box>
+                  <Box className='def-tekst-bottom'>heel veel tekst</Box>
+                  <Box className='def-tekst-bottom'>heel veel tekst</Box>
+                  <Box></Box>
+                  <Box className='def-icon'>icoon</Box>
+                  <Box className='def-title'>Intrinsic motivation</Box>
+                  <Box className='def-title'>interpretation</Box>
+                  <Box className='def-icon'>icoon</Box>
+                </Grid>
               </Box>
             </Box>
           </Box>
