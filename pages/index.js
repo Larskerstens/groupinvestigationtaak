@@ -23,14 +23,14 @@ export default function Home() {
         <Box className='hero-img'>
           <Box className='inside-container'>
             <Box className='hero-content'>
-              <Heading className='h1' mb={[".3em", "1em"]}>
+              <Heading className='h1' mb={"1em"}>
                 <span className='line'></span>
                 <span className='color'> Group</span> Investigation
               </Heading>
 
               <Grid
                 templateColumns={["repeat(2, 1fr)", "repeat(3, 1fr)"]}
-                gap={24}
+                gap={[8, 24]}
               >
                 <Link href='/definitie' passHref>
                   <Box className='icons'>
