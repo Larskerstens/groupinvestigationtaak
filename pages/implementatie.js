@@ -48,21 +48,11 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - De leerkracht presenteert een onderwerp aan de klas.
+                        <br />- Er worden samen met de leerlingen enkele
+                        subtopics bepaald.
+                        <br />- De leerlingen sluiten zick aan bij een subtopic
+                        dat aansluit bij de intresses.
                       </Box>
                     </Box>
                   </Box>
@@ -85,21 +75,10 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - De leerlingen bepalen in groep hoe ze hun onderzoek
+                        willen aanpakken.
+                        <br />- Bijvoorbeeld: Planning? Rolverdeling?
+                        Taakverdeling?.
                       </Box>
                     </Box>
                   </Box>
@@ -122,21 +101,8 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - Uitvoeren van het onderzoek zoals in stap 2 bepaald
+                        werd.
                       </Box>
                     </Box>
                   </Box>
@@ -159,21 +125,9 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - De leerlingen synthetiseren hun bevindingen.
+                        <br />- Ze denken na over hoe ze de bevindingen aan de
+                        klas willen presenteren.
                       </Box>
                     </Box>
                   </Box>
@@ -196,21 +150,7 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - De leerlingen presenteren hun bevindingen aan de klas.
                       </Box>
                     </Box>
                   </Box>
@@ -233,21 +173,10 @@ export default function Implementatie() {
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Quas a illo ducimus magni nemo assumenda
-                        quibusdam? Reprehenderit architecto ullam id earum
-                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
-                        perspiciatis velit, perferendis ipsam? Id corporis quasi
-                        sint assumenda aut accusantium, ex, molestiae
-                        dignissimos aliquid nisi vitae velit optio voluptate
-                        saepe inventore. Reprehenderit voluptate, dignissimos
-                        harum facilis quibusdam doloremque laudantium rem
-                        inventore, fuga laboriosam quam itaque architecto
-                        perferendis praesentium error, libero iusto sequi et vel
-                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
-                        aliquam porro quo dolores at, maxime sapiente architecto
-                        aspernatur dicta totam consectetur odio. Vitae unde
-                        nulla ad animi eligendi, iste voluptate!
+                        - Na de presentatie volgt een evaluatie door zowel de
+                        leerkracht als klasgenoten.
+                        <br />- De beoordeling is zowel gericht op het
+                        onderzoeksproces als op de presentatie.
                       </Box>
                     </Box>
                   </Box>
