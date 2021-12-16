@@ -50,7 +50,7 @@ export default function Implementatie() {
                         - De leerkracht presenteert een onderwerp aan de klas.
                         <br />- Er worden samen met de leerlingen enkele
                         subtopics bepaald.
-                        <br />- De leerlingen sluiten zick aan bij een subtopic
+                        <br />- De leerlingen sluiten zich aan bij een subtopic
                         dat aansluit bij de intresses.
                       </Box>
                     </Box>
@@ -77,7 +77,7 @@ export default function Implementatie() {
                         - De leerlingen bepalen in groep hoe ze hun onderzoek
                         willen aanpakken.
                         <br />- Bijvoorbeeld: Planning? Rolverdeling?
-                        Taakverdeling?.
+                        Taakverdeling?
                       </Box>
                     </Box>
                   </Box>

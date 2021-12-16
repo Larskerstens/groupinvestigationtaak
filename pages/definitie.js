@@ -87,7 +87,7 @@ export default function Definitie() {
                     <FaHeart />
                   </Box>
                   <Box className='def-title'>Intrinsic motivation</Box>
-                  <Box className='def-title'>interpretation</Box>
+                  <Box className='def-title'>Interpretation</Box>
                   <Box className='def-icon-right'>
                     <FaBrain />
                   </Box>
