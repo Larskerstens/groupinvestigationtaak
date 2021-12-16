@@ -171,6 +171,12 @@ svg {
   background-color: rgba(3, 166, 90, 0.3);
 }
 
+.imp {
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  max-width: 700px;
+}
+
 footer {
   display: flex;
   padding: 2rem 3rem;

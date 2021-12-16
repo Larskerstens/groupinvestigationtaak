@@ -31,28 +31,75 @@ export default function Implementatie() {
                 </Box>
               </Flex>
               <Box className='content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat recusandae in reiciendis quisquam quas perferendis
-                suscipit commodi explicabo autem esse.
                 <Box>
-                  <h1 className='animate__animated animate__lightSpeedInLeft'>
+                  <Box
+                    className='animate__animated animate__lightSpeedInLeft'
+                    mb='2em'
+                  >
+                    <Box className='imp'>
+                      <Flex justifyContent='space-between' mb='1em'>
+                        <Box fontSize='22px'>Stap 1</Box>
+                        <Box>icon</Box>
+                      </Flex>
+                      <Box textAlign='left'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quas a illo ducimus magni nemo assumenda
+                        quibusdam? Reprehenderit architecto ullam id earum
+                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
+                        perspiciatis velit, perferendis ipsam? Id corporis quasi
+                        sint assumenda aut accusantium, ex, molestiae
+                        dignissimos aliquid nisi vitae velit optio voluptate
+                        saepe inventore. Reprehenderit voluptate, dignissimos
+                        harum facilis quibusdam doloremque laudantium rem
+                        inventore, fuga laboriosam quam itaque architecto
+                        perferendis praesentium error, libero iusto sequi et vel
+                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
+                        aliquam porro quo dolores at, maxime sapiente architecto
+                        aspernatur dicta totam consectetur odio. Vitae unde
+                        nulla ad animi eligendi, iste voluptate!
+                      </Box>
+                    </Box>
+                  </Box>
+                  <Box
+                    className='animate__animated animate__lightSpeedInRight animate__delay-1s'
+                    mb='2em'
+                  >
+                    <Box className='imp'>
+                      <Flex justifyContent='space-between' mb='1em'>
+                        <Box fontSize='22px'>Stap 1</Box>
+                        <Box>icon</Box>
+                      </Flex>
+                      <Box textAlign='left'>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Quas a illo ducimus magni nemo assumenda
+                        quibusdam? Reprehenderit architecto ullam id earum
+                        obcaecati, eveniet voluptas? Corporis assumenda ad cum
+                        perspiciatis velit, perferendis ipsam? Id corporis quasi
+                        sint assumenda aut accusantium, ex, molestiae
+                        dignissimos aliquid nisi vitae velit optio voluptate
+                        saepe inventore. Reprehenderit voluptate, dignissimos
+                        harum facilis quibusdam doloremque laudantium rem
+                        inventore, fuga laboriosam quam itaque architecto
+                        perferendis praesentium error, libero iusto sequi et vel
+                        obcaecati voluptatum veritatis aperiam. Fugit inventore,
+                        aliquam porro quo dolores at, maxime sapiente architecto
+                        aspernatur dicta totam consectetur odio. Vitae unde
+                        nulla ad animi eligendi, iste voluptate!
+                      </Box>
+                    </Box>
+                  </Box>
+                  <Box className='animate__animated animate__fadeInTopLeft animate__delay-2s'>
                     An animated element
-                  </h1>
-                  <h1 className='animate__animated animate__lightSpeedInRight animate__delay-1s'>
+                  </Box>
+                  <Box className='animate__animated animate__fadeInTopRight animate__delay-3s'>
                     An animated element
-                  </h1>
-                  <h1 className='animate__animated animate__fadeInTopLeft animate__delay-2s'>
+                  </Box>
+                  <Box className='animate__animated animate__backInLeft animate__delay-4s'>
                     An animated element
-                  </h1>
-                  <h1 className='animate__animated animate__fadeInTopRight animate__delay-3s'>
+                  </Box>
+                  <Box className='animate__animated animate__backInRight animate__delay-5s'>
                     An animated element
-                  </h1>
-                  <h1 className='animate__animated animate__backInLeft animate__delay-4s'>
-                    An animated element
-                  </h1>
-                  <h1 className='animate__animated animate__backInRight animate__delay-4s'>
-                    An animated element
-                  </h1>
+                  </Box>
                 </Box>
               </Box>
             </Box>
