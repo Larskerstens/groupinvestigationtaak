@@ -35,22 +35,22 @@ export default function Implementatie() {
                 Repellat recusandae in reiciendis quisquam quas perferendis
                 suscipit commodi explicabo autem esse.
                 <Box>
-                  <h1 class='animate__animated animate__lightSpeedInLeft'>
+                  <h1 className='animate__animated animate__lightSpeedInLeft'>
                     An animated element
                   </h1>
-                  <h1 class='animate__animated animate__lightSpeedInRight animate__delay-1s'>
+                  <h1 className='animate__animated animate__lightSpeedInRight animate__delay-1s'>
                     An animated element
                   </h1>
-                  <h1 class='animate__animated animate__fadeInTopLeft animate__delay-2s'>
+                  <h1 className='animate__animated animate__fadeInTopLeft animate__delay-2s'>
                     An animated element
                   </h1>
-                  <h1 class='animate__animated animate__fadeInTopRight animate__delay-3s'>
+                  <h1 className='animate__animated animate__fadeInTopRight animate__delay-3s'>
                     An animated element
                   </h1>
-                  <h1 class='animate__animated animate__backInLeft animate__delay-4s'>
+                  <h1 className='animate__animated animate__backInLeft animate__delay-4s'>
                     An animated element
                   </h1>
-                  <h1 class='animate__animated animate__backInRight animate__delay-4s'>
+                  <h1 className='animate__animated animate__backInRight animate__delay-4s'>
                     An animated element
                   </h1>
                 </Box>
