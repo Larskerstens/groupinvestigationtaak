@@ -30,7 +30,28 @@ export default function Implementatie() {
                   /<span className='navactive'>Implementatie</span>
                 </Box>
               </Flex>
-              <Box className='content'>Foto</Box>
+              <Box className='content'>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat recusandae in reiciendis quisquam quas perferendis
+                suscipit commodi explicabo autem esse.
+                <Box>
+                  <h1 class='animate__animated animate__lightSpeedInLeft'>
+                    An animated element
+                  </h1>
+                  <h1 class='animate__animated animate__lightSpeedInRight animate__delay-1s'>
+                    An animated element
+                  </h1>
+                  <h1 class='animate__animated animate__lightSpeedInLeft animate__delay-2s'>
+                    An animated element
+                  </h1>
+                  <h1 class='animate__animated animate__lightSpeedInRight animate__delay-3s'>
+                    An animated element
+                  </h1>
+                  <h1 class='animate__animated animate__lightSpeedInLeft animate__delay-4s'>
+                    An animated element
+                  </h1>
+                </Box>
+              </Box>
             </Box>
           </Box>
         </Box>
