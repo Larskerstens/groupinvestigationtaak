@@ -40,7 +40,7 @@ export default function Randvoorwaarden() {
                 </Box>
               </Flex>
               <Box className='content'>
-                <Accordion allowToggle w='1000px'>
+                <Accordion allowToggle w={["100%", "1000px"]}>
                   <AccordionItem>
                     <h2>
                       <AccordionButton

@@ -181,6 +181,12 @@ svg {
   background-color: rgba(3, 166, 90, 0.3);
 }
 
+.voorna {
+  font-size: 30px;
+  text-align: right;
+  color: #03a65a;
+}
+
 footer {
   display: flex;
   padding: 2rem 3rem;
@@ -209,5 +215,11 @@ footer {
     font-size: 28px !important;
     letter-spacing: 2px;
     text-align: center;
+  }
+
+  .def-icon-left,
+  .def-icon-right,
+  .hidden {
+    display: none;
   }
 }

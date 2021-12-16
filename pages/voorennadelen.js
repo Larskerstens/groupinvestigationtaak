@@ -32,7 +32,7 @@ export default function Voorennadelen() {
               </Flex>
               <Box className='content'>
                 <Box textAlign='left' w='100%'>
-                  Voordelen <br />
+                  <span className='voorna'>Voordelen</span> <br />
                   + Leerlingen leren samen te werken met andere leerlingen.
                   <br />+ Leerlingen hebben veel controle over hun eigen
                   leerproces. <br />+ Leerlingen zijn extra gemotiveerd omdat ze
@@ -49,8 +49,8 @@ export default function Voorennadelen() {
                   <br />+ Leerlingen hebben minder vooroordelen naar anderen toe
                   (bijv. etnische afkomst).
                 </Box>
-                <Flex mt='25px' textAlign='right' w='100%'>
-                  Nadelen
+                <Box mt='25px' textAlign='right' w='100%'>
+                  <span className='voorna'>Nadelen</span>
                   <br /> - Leerkrachten worden te weinig opgeleid om Group
                   Investigation te implementeren in hun klas.
                   <br />- Group Investigation is een heel tijdrovende werkvorm.
@@ -68,7 +68,7 @@ export default function Voorennadelen() {
                   <br />- Het is heel moeilijk om met studenten, die om een of
                   andere reden niet gemotiveerd zijn, samen te werken in een
                   groepje.
-                </Flex>
+                </Box>
               </Box>
             </Box>
           </Box>

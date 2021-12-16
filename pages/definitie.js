@@ -51,7 +51,10 @@ export default function Definitie() {
                     de 4 I’s:
                   </Box>
                 </Box>
-                <Grid templateColumns='repeat(4, 1fr)' gap={2}>
+                <Grid
+                  templateColumns={["repeat(2, 1fr)", "repeat(4, 1fr)"]}
+                  gap={2}
+                >
                   <Box className='def-icon-left'>
                     <FaSearch />
                   </Box>
@@ -60,7 +63,7 @@ export default function Definitie() {
                   <Box className='def-icon-right'>
                     <FaUsers />
                   </Box>
-                  <Box></Box>
+                  <Box className='hidden'></Box>
                   <Box className='def-tekst-top'>
                     Het zoekproces over een topic dat aansluit bij de intresses
                     van de groep.
@@ -69,8 +72,8 @@ export default function Definitie() {
                     De groepsleden moeten met elkaar in interactie gaan om de
                     opdracht tot een goed einde te brengen.
                   </Box>
-                  <Box></Box>
-                  <Box></Box>
+                  <Box className='hidden'></Box>
+                  <Box className='hidden'></Box>
                   <Box className='def-tekst-bottom'>
                     De motivatie die vanuit de leerling zelf komt om aan de
                     opdracht te werken.
@@ -79,7 +82,7 @@ export default function Definitie() {
                     Wijst op het samenvatten van de bevindingen van elk
                     groepslid om zo meer te weten te komen over het onderwerp.
                   </Box>
-                  <Box></Box>
+                  <Box className='hidden'></Box>
                   <Box className='def-icon-left'>
                     <FaHeart />
                   </Box>
