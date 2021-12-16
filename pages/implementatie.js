@@ -33,7 +33,7 @@ export default function Implementatie() {
                   /<span className='navactive'>Implementatie</span>
                 </Box>
               </Flex>
-              <Box className='content'>
+              <Box className='content content-imp'>
                 <Box>
                   <Box
                     className='animate__animated animate__lightSpeedInLeft'
