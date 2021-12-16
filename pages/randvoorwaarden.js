@@ -9,7 +9,6 @@ import {
   AccordionButton,
   AccordionPanel,
   AccordionIcon,
-  background,
 } from "@chakra-ui/react";
 
 export default function Randvoorwaarden() {

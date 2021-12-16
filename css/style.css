@@ -167,14 +167,14 @@ svg {
 .def-tekst-bottom {
   border: 1px solid #03a65a;
   border-radius: 10px 10px 2px 2px;
-
   background-color: rgba(3, 166, 90, 0.3);
 }
 
 .imp {
-  border: 1px solid white;
+  border-radius: 3px;
   padding: 0.5em 1em;
-  max-width: 700px;
+  max-width: 800px;
+  background-color: rgba(3, 166, 90, 0.3);
 }
 
 footer {
