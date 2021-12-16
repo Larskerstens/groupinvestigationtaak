@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 import { Heading, Box, Flex } from "@chakra-ui/react";
-import { FaPencilRuler, FaBrain } from "react-icons/fa";
+import { FaPencilRuler, FaBrain, FaRegChartBar } from "react-icons/fa";
 import { GiHiveMind, GiCalendar, GiTeacher } from "react-icons/gi";
 import { CgArrowLongDownL } from "react-icons/cg";
-import { GoChecklist } from "react-icons/Go";
 
 export default function Implementatie() {
   return (
@@ -169,7 +168,7 @@ export default function Implementatie() {
                       <Flex justifyContent='space-between' mb='16px'>
                         <Box fontSize='22px'>Stap 6</Box>
                         <Box fontSize='30px'>
-                          <GoChecklist />
+                          <FaRegChartBar />
                         </Box>
                       </Flex>
                       <Box textAlign='left'>
