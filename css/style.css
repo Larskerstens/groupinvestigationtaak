@@ -53,7 +53,6 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
 
 .hero-content {
@@ -202,6 +201,7 @@ footer {
 @media only screen and (max-width: 30em) {
   .inside-container {
     padding: 1em;
+    min-height: -webkit-fill-available;
   }
 
   .icon {
